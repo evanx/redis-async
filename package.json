@@ -1,0 +1,18 @@
+{
+  "name": "redis-async",
+  "version": "0.0.1",
+  "description": "Basic async support for Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evanx/redis-async.git"
+  },
+  "author": "Evan Summers",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
+}
