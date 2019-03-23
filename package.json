@@ -1,5 +1,5 @@
 {
-  "name": "@evanx/redis-async",
+  "name": "evanx/redis-async",
   "version": "0.0.2",
   "description": "Basic async support for Redis",
   "main": "index.js",
