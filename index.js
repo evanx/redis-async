@@ -5,7 +5,7 @@ const promise = fn =>
 
 module.exports = {
    sendCommand: (client, command, ...args) =>
-      promise(cb => client.sendCommand(command, ...args, cb)),
+      promise(cb => client.send_command(command, args, cb)),
    execMulti: (client, commands) =>
       promise(cb => client.multi(commands).exec(cb)),
    quitRedis: client => promise(cb => client.quit(cb)),
