@@ -13,7 +13,7 @@
   "author": "Evan Summers",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.15.3",
+    "eslint": "^6.0.1",
     "redis": "^2.8.0"
   }
 }
